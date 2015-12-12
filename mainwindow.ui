@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>697</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Read</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="checkBtn">
+      <property name="text">
+       <string>Cheack</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <widget class="QTableWidget" name="tableWidget">
+      <row>
+       <property name="text">
+        <string>time</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>x</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>z</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>psi</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>theta</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>phil</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>path1</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>path2</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>path3</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>path4</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>path5</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>path6</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>path7</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>697</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
